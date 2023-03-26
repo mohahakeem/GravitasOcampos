@@ -1,5 +1,9 @@
 body
 {
+    max-width: 100%;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
 
 }
 
@@ -13,7 +17,7 @@ section.header1
     background-position: center;
     position: relative;
     height: 600px;
-    width: 100%;
+    max-width: 100%;
 }
 .header1 .reallogo
 {
@@ -66,14 +70,14 @@ section #welcome
 {
     background-color:rgb(252, 196, 12);
     color: black;
-    width: 20%;
+    max-width: 20%;
     height:50px;
     border-radius: 10px;
     font-size: 20px;
 }
 #welcome .book
 {   background: transparent;
-    width: 25%;
+    max-width: 25%;
     height:50px;
     border-radius: 10px ;
     font-size: 20px;
@@ -82,14 +86,14 @@ section #welcome
 }
 .imageshome
 {
-    width: 100%;
+    max-width: 100%;
     height: 350px;
     background:rgb(44, 40, 40);
     padding:10px;
 }
 #Appetizer
 {
-    width:100%;
+    max-width:100%;
     height:238vh;
     background:white;
     padding-left: px;
@@ -124,13 +128,13 @@ section #welcome
 }
 #food2
 {
-    width: 100%;
+    max-width: 100%;
     height: 238vh;
     background: rgb(252, 196, 12);
 }
 #food3
 {
-    width: 100%;
+    max-width: 100%;
     height: 238vh;
     background:white;
     
@@ -146,18 +150,11 @@ section #welcome
 {
     background:black;
     padding-top: 2rem;
-    width: 100%;
+    max-width: 100%;
     height:50vh;
 
 }
 
-
-
-#contact
-{
-   
-
-}
 
 #tel h1
 {
